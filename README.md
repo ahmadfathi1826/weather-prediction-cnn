@@ -10,17 +10,24 @@ Aplikasi web sederhana untuk mengklasifikasikan kondisi cuaca dari gambar menggu
 1. Clone repository ini
 ```bash
 git clone https://github.com/ahmad-fathi18/weather-classification-cnn
-cd classification-cnn
+cd weather-classification-cnn
 ```
 
-2. Buat virtual environment
+2. Buat dan aktifkan virtual environment
 ```bash
+# Membuat virtual environment
 python -m venv venv
+
+# Mengaktifkan (Windows)
 venv\Scripts\activate
+
+# Mengaktifkan (macOS / Linux)
+source venv/bin/activate
 ```
 
 3. Install dependencies
 ```bash
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -29,10 +36,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Teknologi
-- TensorFlow / Keras
-- Streamlit
-- Python
+## Built With
+- **Core:** Python 
+- **Deep Learning:** TensorFlow / Keras
+- **Web Framework:** Streamlit
+
 
 ## Author
 * **Ahmad Fathi** - [GitHub Profile](https://github.com/ahmad-fathi18)
